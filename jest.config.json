@@ -1,0 +1,15 @@
+{
+  "testEnvironment": "jsdom",
+  "transform": {
+    "^.+\\.(ts|tsx)?$": "ts-jest",
+    "^.+\\.(js|jsx)$": "babel-jest"
+  },
+  "transformIgnorePatterns": [
+    "node_modules/(?!@ngrx|(?!deck.gl)|ng-dynamic)"
+  ],
+  "moduleFileExtensions": ["ts", "js", "json", "node"],
+  "testMatch": ["**/tests/**/*.test.ts"],
+  "coverageDirectory": "coverage",
+  "coverageReporters": ["json", "text"],
+  "collectCoverageFrom": ["**/src/**/*.ts"]
+}

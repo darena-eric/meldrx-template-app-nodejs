@@ -1,0 +1,13 @@
+.DS_Store
+node_modules
+build
+build/*
+
+#src/secret
+src/tests/**/*.js
+
+package-lock.json
+yarn.lock
+
+# Coverage
+coverage
